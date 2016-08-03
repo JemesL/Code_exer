@@ -44,6 +44,7 @@
     shapeLayer.path = path.CGPath;
     //add it to our view
     [self.view.layer addSublayer:shapeLayer];
+    
 }
 
 - (void)didReceiveMemoryWarning {
