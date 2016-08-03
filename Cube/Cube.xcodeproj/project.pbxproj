@@ -15,6 +15,7 @@
 		68901DA51D51BC1A00338E39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68901DA31D51BC1A00338E39 /* LaunchScreen.storyboard */; };
 		68901DB01D51BC1A00338E39 /* CubeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68901DAF1D51BC1A00338E39 /* CubeTests.m */; };
 		68901DBB1D51BC1A00338E39 /* CubeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68901DBA1D51BC1A00338E39 /* CubeUITests.m */; };
+		68901DC91D51C7D700338E39 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68901DC81D51C7D700338E39 /* GLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		68901DB61D51BC1A00338E39 /* CubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68901DBA1D51BC1A00338E39 /* CubeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeUITests.m; sourceTree = "<group>"; };
 		68901DBC1D51BC1A00338E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68901DC81D51C7D700338E39 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68901DC91D51C7D700338E39 /* GLKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		68901D891D51BC1A00338E39 = {
 			isa = PBXGroup;
 			children = (
+				68901DC81D51C7D700338E39 /* GLKit.framework */,
 				68901D941D51BC1A00338E39 /* Cube */,
 				68901DAE1D51BC1A00338E39 /* CubeTests */,
 				68901DB91D51BC1A00338E39 /* CubeUITests */,
