@@ -28,7 +28,7 @@
         
         for (int i = 0;  i < 6; i++) {
             UIView *face = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
-            face.backgroundColor = [UIColor whiteColor];
+            face.backgroundColor = colorRandom;
             
             [_faces addObject:face];
         }
